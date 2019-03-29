@@ -1,0 +1,20 @@
+
+public class MamaMilaRamy {
+
+	private static final char[] mamaMila = null;
+	public static  String a,b,c;{
+	  a="Mama";
+	  b="Ramy";
+	  c="Mila";
+}
+	
+	    public  void mamaMila(String s){
+	        s=a+","+b+","+c;
+	        System.out.println(s);
+	    }
+	    public static void main(String[] args) {
+	        
+			//напишите тут ваш код
+	    	System.out.println(mamaMila);
+	    }
+	}

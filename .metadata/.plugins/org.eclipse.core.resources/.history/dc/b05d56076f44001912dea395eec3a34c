@@ -1,0 +1,36 @@
+
+public class MamaMilaRamy {
+
+	public static String a, b, c;
+
+	public static void mamaMila(String s) {
+
+		a = "Mama";
+		b = "Ramy";
+		c = "Mila";
+		s = a + "," + c + "," + b;
+		System.out.println(s);
+
+	}
+
+	public static void Mama2(String s) {
+		a="Mama";
+		  b="Ramy";
+		  c="Mila";
+		  s= a + "," + b + "," + c;
+		  System.out.println( s);
+	}
+	public static void Mama3(String s) {
+		a="Mama";
+		  b="Ramy";
+		  c="Mila";
+		  System.out.println(b+c+a);
+	}
+
+	public static void main(String[] args) {
+
+		mamaMila(a);
+		Mama2(a);
+Mama3(a);  
+	}
+}

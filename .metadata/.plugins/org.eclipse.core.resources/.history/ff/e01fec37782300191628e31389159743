@@ -1,0 +1,20 @@
+package bucky;
+
+class apples2{
+	public static void main(String[] args) {
+
+	int age = 60;
+	if(age <50) {
+		System.out.println(" u r too young");
+	}else {
+		System.out.println(" u r too old");
+		if (age > 75) {
+			System.out.println(" u r really ");
+			
+		}else {
+			System.out.println(" dont worry u r not so old ");
+		}
+	}
+	}
+}
+	

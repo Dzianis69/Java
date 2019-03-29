@@ -1,0 +1,9 @@
+package bucky;
+
+class apples2{
+	public static void main(String[] args) {
+		bat batObject = new bat();
+		batObject.simpleMessage();
+	}
+}
+	

@@ -1,0 +1,13 @@
+package com.class2;
+import java.util.Scanner;
+
+public class Prac {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner po= new Scanner(System.in);
+System.out.println("Input first number :");
+int num1 = po.nextInt();
+	}
+
+}

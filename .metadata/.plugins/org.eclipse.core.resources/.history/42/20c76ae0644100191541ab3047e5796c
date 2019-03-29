@@ -1,0 +1,10 @@
+
+public class He0rShe {
+
+	public static void main(String...w) {
+		// TODO Auto-generated met argshod stub
+String s ="hey wats up \rYoo";
+System.out.println(s);
+	}
+
+}

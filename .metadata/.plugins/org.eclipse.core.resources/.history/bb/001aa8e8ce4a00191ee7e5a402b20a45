@@ -1,0 +1,13 @@
+package JavaRush;
+
+public class HM54 {
+	public static void main(String[] args) {
+String [] a ={"s","a","y","b","n","c","t","d","a","e","x"};
+    
+    for(int i=1;i<a.length;i++){
+      if(a.length%2==0){
+        System.out.print(a[i]);
+      }
+    }
+  }
+}

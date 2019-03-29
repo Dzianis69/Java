@@ -1,0 +1,17 @@
+package com.class11;
+
+public class AraysCountry2D {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String[][] cou = { { "Belarus", "Minsk" }, { "USA", "Washingron" }, { "Italy", "Rome" },
+				{ "Canada", "Toronto" }, { "Austria", "Vena" }
+		};
+for(String []s:cou) {
+	System.out.println("The capital of "+s+" is "+s );
+	
+}
+		
+	}
+
+}

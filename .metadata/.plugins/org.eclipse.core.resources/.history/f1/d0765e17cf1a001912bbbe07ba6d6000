@@ -1,0 +1,16 @@
+package bucky;
+
+class apples2{
+	public static void main(String args[]) {
+		int boy, girl;
+		
+		boy = 8;
+		girl = 11;
+		if (boy <= 18 || girl >=21) {
+			System.out.println("you can enter");
+		}else {
+			System.out.println("you can not enter");
+			
+		}
+	}
+}

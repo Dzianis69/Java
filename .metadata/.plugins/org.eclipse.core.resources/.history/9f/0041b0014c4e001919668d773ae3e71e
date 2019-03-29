@@ -1,0 +1,12 @@
+package com.class12;
+
+public class StringManipulations {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str = "Syntax";
+		int length=str.length();
+		System.out.println(length);
+	}
+
+}

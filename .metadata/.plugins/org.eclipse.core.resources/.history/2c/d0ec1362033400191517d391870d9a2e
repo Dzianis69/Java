@@ -1,0 +1,8 @@
+package com.class2;
+
+public class Codeacademy {
+	public static void main(String[]args) {
+	System.out.println("Hello");
+	System.out.println("Dzianis Shkuratsenka");
+}
+}

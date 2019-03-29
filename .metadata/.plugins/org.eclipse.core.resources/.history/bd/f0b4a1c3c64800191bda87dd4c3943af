@@ -1,0 +1,30 @@
+package com.class10;
+
+import java.util.Scanner;
+
+public class Tol {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int price;
+		Scanner input=new Scanner(System.in);
+		System.out.println("price");
+		price=input.nextInt();
+		
+		
+		System.out.println("Please pay for your item:");
+        int paydAmmount=input.nextInt();
+        
+        
+        do {
+            int remaind=price-paydAmmount;
+            System.out.printf("You need to cover the rest:%d",remaind);
+            System.out.println();
+            System.out.println("Please pay the differents:");
+            paydAmmount+=input.nextInt();
+            
+        }    
+        while(paydAmmount<price);
+	}
+
+}

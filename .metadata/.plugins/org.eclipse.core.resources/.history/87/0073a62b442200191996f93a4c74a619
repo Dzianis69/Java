@@ -1,0 +1,14 @@
+package bucky;
+import java.util.Scanner;
+class apples2{
+	public static void main(String[] args) {
+
+		
+Scanner input = new Scanner(System.in);
+bat batObject = new bat();
+System.out.println("Enter your name here");
+String name = input.nextLine();
+batObject.simpleMessage(name);
+	}
+}
+	

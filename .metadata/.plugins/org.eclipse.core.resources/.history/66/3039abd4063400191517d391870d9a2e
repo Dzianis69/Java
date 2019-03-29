@@ -1,0 +1,17 @@
+package com.class2;
+
+public class Codeacademy {
+	public static void main(String[]args) {
+	System.out.println("Hello\nDzianis Shkuratsenka");
+	int a,b;
+	a=74;
+	b=36;
+	System.out.println(a+b);
+	 int c,d;
+	 c=50;
+	 d=3;
+	 System.out.println(c/d);
+	
+	}
+	
+}

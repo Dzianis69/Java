@@ -1,0 +1,16 @@
+package com.class12;
+
+public class StringManipulation3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+String str="Students";
+char cha=str.charAt(7);
+System.out.println(cha);
+
+/*for(int i=0;i<str.length();i++) {
+	System.out.println(str.charAt(i));*/
+}
+	}
+
+

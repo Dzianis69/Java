@@ -1,0 +1,24 @@
+package bucky;
+
+class apples2{
+	public static void main(String args[]) {
+		int = age;
+		age = 3;
+		switch;
+		case 1:
+		System.out.println("U can crawl");
+		break;
+		case 2:
+		System.out.println("u can talk");
+		break;
+		case 3:
+			System.out.println("u can get trouble");
+			break:
+		default:
+			System.out.println("i dont know how old u r");
+			break;
+	
+	}
+					
+	}
+	}

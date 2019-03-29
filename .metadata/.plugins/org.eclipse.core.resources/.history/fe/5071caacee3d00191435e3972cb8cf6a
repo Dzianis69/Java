@@ -1,0 +1,41 @@
+package com.class6;
+
+import java.util.Scanner;
+
+public class Task1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String lung, country;
+
+		Scanner input = new Scanner(System.in);
+
+		System.out.println("Where are you from?");
+		country = input.nextLine();
+
+		switch (country) {
+
+		case "Belarus":
+			lung = "Belarusian";
+			break;
+		case "Ukraine":
+			lung = "Ukranian";
+			break;
+		case "USA":
+			lung="English";
+			break;
+		case "Italy":
+			lung="Italian";
+			break;
+		case"China":
+			lung="Chineese";
+			break;
+			default:
+				lung="Your counry is not in the list";
+		}
+System.out.println("You are from "+country+" and your lunguage is "+lung+".");
+		}
+	}
+
+

@@ -1,0 +1,13 @@
+
+public class e {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+double w =5.6;
+double h =8.5;
+System.out.println("Area is "+ h*w );
+System.out.println("Perimetr is "+ 2*(h+w));
+
+	}
+
+}

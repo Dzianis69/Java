@@ -1,0 +1,8 @@
+package bucky;
+
+public class bat {
+public void simpleVessage(String name) {
+	System.out.println("Hello + name");
+}
+}
+

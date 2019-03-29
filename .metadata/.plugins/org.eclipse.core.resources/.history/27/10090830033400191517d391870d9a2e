@@ -1,0 +1,15 @@
+package com.class2;
+
+public class Codeacademy {
+	public static void main(String[]args) {
+	int myNumber=2;
+	// myNumber is original number
+int stepOne= myNumber*40;
+int stepTwo=stepOne+40;
+int stepThree=stepTwo/40;
+int stepFour=stepThree+17;
+int stepFive=stepFour-40;
+int stepSix=stepFive/6;
+System.out.println(stepSix);
+}
+}

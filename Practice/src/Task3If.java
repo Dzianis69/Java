@@ -1,0 +1,38 @@
+import java.util.Scanner;
+
+public class Task3If {
+	public static void main(String[] args) {
+		/*
+		 * HomeWork: Using scanner class create calculator. Allow user to enter 2
+		 * numbers and operator(+,-,*,/). Based on operator provide the result to user
+		 */
+
+		double a, b, c;
+		c = 0;
+		char oper;
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter first number");
+		a = input.nextDouble();
+		System.out.println("Type second number");
+		b = input.nextDouble();
+		System.out.println("What operation would you perform?Enter assighment operator");
+		oper = input.next().charAt(0);
+		if (oper == '*') {
+			c = a * b;
+
+		} else if (oper == '-') {
+			c = a - b;
+
+		} else if (oper == '+') {
+			c = a + b;
+
+		} else if (oper == '/') {
+			c = a / b;
+
+		} else {
+			System.out.println("Type corect assigment operator");
+
+		}
+		System.out.println("Operation between " + a + " and " + b + " is " + c + ".");
+	}
+}

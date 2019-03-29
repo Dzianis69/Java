@@ -1,0 +1,12 @@
+package bucky;
+
+class apples2{
+	public static void main(String[] args) {
+
+	bat batObject = new bat("Margo");
+	bat batObject2= new bat("Kate");
+	batObject.saying();
+	batObject2.saying();
+	}
+}
+	

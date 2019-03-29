@@ -1,0 +1,10 @@
+package bucky;
+import java.util.Scanner;
+
+class apples2{
+public static void main(String args[]) {
+	Scanner baby = new Scanner (System.in);
+	System.out.println(baby.nextLine());
+	
+}
+	}

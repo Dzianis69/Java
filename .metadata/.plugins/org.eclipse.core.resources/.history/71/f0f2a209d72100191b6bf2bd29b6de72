@@ -1,0 +1,20 @@
+package bucky;
+
+class apples2{
+	  public static void main(String[] args)
+	    {
+	    
+	      System.out.println("My name is Amigo.");
+	      
+	      System.out.println();
+	             System.out.println("My salary for the first year will be $60,000");
+	             System.out.println("My salary for the second year will be $80,000.");
+	         System.out.println("My salary for the third year will be $100,000.");
+	          System.out.println("My salary for the fourth year will be $120,000.");
+	           System.out.println("My salary for the fifth year will be $150,000.");
+	           
+	           System.out.println();
+	          System.out.println("Kiss my shiny metal ass!");
+	    }
+	    }   
+	

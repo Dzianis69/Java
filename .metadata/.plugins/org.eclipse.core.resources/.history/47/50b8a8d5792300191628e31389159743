@@ -1,0 +1,11 @@
+package bucky;
+
+class apples2{
+	public static void main(String[] args) {
+int age = 21;
+
+System.out.println(age >50 ? "u r old" : "u r young");
+
+	}
+}
+	

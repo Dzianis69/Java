@@ -1,0 +1,8 @@
+package bucky;
+
+public class tuna {
+	public void simpleMesage() {
+		System.out.println("This is new class");
+	}
+
+}

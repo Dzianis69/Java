@@ -1,0 +1,21 @@
+package com.class12;
+
+public class StringManipulations {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str = "Syn tax";
+		int length=str.length();
+		System.out.println(length);
+		
+		
+		
+		String str3="Hello";
+		String newString3=str3.toUpperCase();
+		System.out.println(newString3);
+		
+		String lowerCase=newString3.toLowerCase();
+		System.out.println(lowerCase);
+	}
+
+}

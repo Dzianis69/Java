@@ -1,0 +1,12 @@
+package bucky;
+import java.util.random
+class apples2{
+	public static void main(String[] args) {
+ Random dice = new Random();
+ int number;
+
+ for (int counter=1; counter<=10;counter++)
+	 number =dice.nextIn(6);
+ System.out.println(number + " ");
+}
+}

@@ -1,0 +1,15 @@
+package bucky;
+
+class apples2{
+	public static void main(String[] args) {
+int age = 55;
+if (age >=60)
+System.out.println(" u r sinior citezen");
+else if (age >= 50)
+	System.out.println(" u r in your 50s");
+else if (age >= 40)
+	System.out.println(" u r in your 40s");
+else System.out.println(" u r too young");
+	}
+}
+	

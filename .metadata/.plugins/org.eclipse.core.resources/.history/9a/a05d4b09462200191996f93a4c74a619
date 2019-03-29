@@ -1,0 +1,10 @@
+package bucky;
+
+class apples2{
+	public static void main(String[] args) {
+
+	batObject = new bat();
+	batObject.saying();
+	}
+}
+	

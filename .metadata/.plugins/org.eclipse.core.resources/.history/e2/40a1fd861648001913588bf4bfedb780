@@ -1,0 +1,52 @@
+import java.util.Scanner;
+
+public class Task1 {
+
+	public static void main(String[] args) {
+		
+		 Scanner sc=new Scanner(System.in);
+	        System.out.println("enter start");
+	       int  start=sc.nextInt();
+	        System.out.println("Enter and");
+	     int    end=sc.nextInt();
+	     int    sumodd=0;
+	    int    sumeve=0;
+	        for(int a= start; a<=end;a++) {
+	            if(a%2==0) {
+	                sumodd=sumodd+a;
+	            
+	            
+	        }else
+	            sumeve=sumeve+a;
+	        }
+	        System.out.println(sumodd);
+	        System.out.println(sumeve);
+		// TODO Auto-generated method stub
+		/*
+		 * 1. Write a program that reads a range of integers (start and end point),
+		 * provided by a user and then from that range prints the sum of the even and
+		 * odd integers.
+		 */
+		/*int num1, num2;
+		int sumOdd = 0;
+		int sumEven = 0;
+
+		Scanner input = new Scanner(System.in);
+		System.out.println("Type number 1");
+		num1 = input.nextInt();
+		System.out.println("Type number 2");
+		num2 = input.nextInt();
+
+		for (int i =num1; i <=num2; i++) {
+			if(i%2==0) {
+				sumEven+=i;
+			}else {
+				sumOdd+=i;
+			}
+			System.out.println(sumEven);
+			System.out.println(sumOdd);
+			}*/
+
+		}
+	}
+

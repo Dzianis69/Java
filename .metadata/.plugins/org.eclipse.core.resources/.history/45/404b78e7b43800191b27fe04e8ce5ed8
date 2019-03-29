@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class Zer {
+
+	public static void main(String[] args) {
+			
+			    
+			        //add your code here
+			        String a=""" ;
+			      Sring b="\"";
+			System.out.println("It's Windows path: " +a+"C:\Program Files\Java\jdk1.7.0\bin"+a);
+			System.out.println(" It's Java string:"+b+"C:\\Program Files\\Java\\jdk1.7.0\\bin"+b);
+			    }
+			}

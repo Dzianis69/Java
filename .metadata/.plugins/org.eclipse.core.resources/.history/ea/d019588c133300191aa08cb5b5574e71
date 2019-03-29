@@ -1,0 +1,16 @@
+package com.class2;
+
+public class Homework {
+	
+		  public static void main(String[] args) {
+		    // Write your code here!
+		    String firstName, lastName;
+		    firstName="Bob";
+		    lastName="Jones";
+		    
+		    		System.out.print(firstName);
+		    		System.out.println(lastName);
+		  }
+		
+
+}

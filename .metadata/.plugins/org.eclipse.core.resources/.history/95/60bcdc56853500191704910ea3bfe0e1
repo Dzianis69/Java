@@ -1,0 +1,12 @@
+
+public class Main {
+
+	  public static void main{
+		    
+		    
+		    float ed = 8.2;
+		    float ed2= ed*ed;
+		    
+		    System.out.println("The multiplication of "+ed+" times itself is equal to "+ed2);
+	  }
+}

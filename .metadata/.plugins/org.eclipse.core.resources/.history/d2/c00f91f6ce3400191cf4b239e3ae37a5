@@ -1,0 +1,16 @@
+
+public class q {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+double Radius = 7.5;
+double p=3.1415926;
+double A= p*(Radius*Radius);
+double P= p*(Radius+Radius);
+System.out.println("Perimetr is "+P);
+System.out.println("Area is "+A);
+		
+
+	}
+
+}

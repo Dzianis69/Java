@@ -1,0 +1,13 @@
+package com.class12;
+
+public class StringMultipulations2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+String str="Good morning,students";
+boolean contains = str.contains("orning");
+System.out.println(contains);
+
+	}
+
+}

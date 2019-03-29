@@ -1,0 +1,15 @@
+package bucky;
+import java.util.Scanner;
+
+class apples2{
+public static void main(String args[]) {
+	Scanner Margarita = new Scanner(System.in);
+	double fnum, snum, answer;
+	System.out.println("Enter first num : ");
+fnum = Margarita.nextDouble();
+System.out.println("Enter first num : ");
+snum = Margarita.nextDouble();
+answer = fnum + snum;
+System.out.println(answer);
+}
+	}

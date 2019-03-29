@@ -1,0 +1,14 @@
+package com.class10;
+
+public class ArraysIntro {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+String[] name=new String[3];
+name[0]="Hello";
+name[1]="hi";
+name[2]="bye";
+System.out.println(name[1]+" pal");
+	}
+
+}

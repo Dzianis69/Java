@@ -1,0 +1,15 @@
+
+ class Main {
+
+	 public static void main(String [] args){
+		    
+		    int w,h;
+		    w=5;
+		    h=8;
+		    int a,p;
+		    p= (w+h)*2;
+		    a= w*h;
+		    System.out.println("The perimeter of a rectangle with widht "+w+" and height "+h+" is equals to "+p+" and the area equals to "+a);
+		    
+		  }
+		}

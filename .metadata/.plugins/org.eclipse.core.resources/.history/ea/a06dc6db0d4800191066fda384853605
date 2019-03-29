@@ -1,0 +1,18 @@
+package com.class9;
+
+public class Patterns {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+for (int q=1;q<=5;q++) {
+	for(int w=1;w<=q;w++) {
+		for(int e=1;e<=w;e++) {
+			for(int r=1;r<5;r++) {
+				System.out.println("*");
+			}
+		}
+	}
+}
+	}
+
+}

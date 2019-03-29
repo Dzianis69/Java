@@ -1,0 +1,15 @@
+
+public class JavaRush {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+String s ="s";
+printTextMoreTimes(s,5);
+	}
+
+	private static void printTextMoreTimes(String s, int i) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
