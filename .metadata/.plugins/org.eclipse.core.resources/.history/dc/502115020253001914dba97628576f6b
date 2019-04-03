@@ -1,0 +1,16 @@
+package com.class14;
+
+public class ReverseString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+String a="Today Java Class";
+String b="";
+for(int i=a.length()-1;i>=0;i--){
+	b+=a.substring(i);
+	
+}
+System.out.println(b);
+	}
+
+}

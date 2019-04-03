@@ -1,0 +1,22 @@
+package w3resource;
+
+public class Str1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+/*1. Write a Java program to get the character at the given index within the String. Go to the editor
+
+Sample Output:
+
+Original String = Java Exercises!                                                                             
+The character at position 0 is J                                                                              
+The character at position 10 is i */
+		
+		String str="Java Exercises!";
+		char zero=str.charAt(0);
+		char ten=str.charAt(10);
+		System.out.println(zero);
+		System.out.println(ten);
+	}
+
+}

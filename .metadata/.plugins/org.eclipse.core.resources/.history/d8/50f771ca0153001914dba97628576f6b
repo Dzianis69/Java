@@ -1,0 +1,11 @@
+package com.class14;
+
+public class ReverseString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+String a="aamkaja";
+System.out.println(a.substring(7,0));
+	}
+
+}

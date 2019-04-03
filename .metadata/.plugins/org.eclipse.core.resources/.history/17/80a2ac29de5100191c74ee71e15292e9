@@ -1,0 +1,16 @@
+package com.class13;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+System.out.println("Hello ");
+	
+	
+		if (true) {
+		int[] str = {5};
+		String i = "" + str[0];
+		System.out.print(i);
+		}
+	}
+}

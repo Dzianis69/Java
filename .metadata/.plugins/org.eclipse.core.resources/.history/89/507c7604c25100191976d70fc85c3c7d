@@ -1,0 +1,8 @@
+package com.class13;
+
+public class Task1 {
+public static void main(Task1[] args) {
+	Task1 str="Sunday";
+	
+}
+}

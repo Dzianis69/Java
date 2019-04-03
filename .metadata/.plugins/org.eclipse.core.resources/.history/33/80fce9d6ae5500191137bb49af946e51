@@ -1,0 +1,30 @@
+package com.class16;
+
+public class Computer {
+
+	int screen, ram;
+	String os;
+	boolean mouse, keyboard;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Computer comp1 = new Computer();
+		comp1.keyboard = true;
+		comp1.mouse = true;
+		comp1.os = "Windows";
+		comp1.ram = 16;
+		comp1.screen = 13;
+
+		Computer comp2 = new Computer();
+		comp2.keyboard = true;
+		comp2.mouse = true;
+		comp2.os = "Mac Os";
+		comp2.ram = 12;
+		comp2.screen = 15;
+
+		
+		
+	}
+
+}
