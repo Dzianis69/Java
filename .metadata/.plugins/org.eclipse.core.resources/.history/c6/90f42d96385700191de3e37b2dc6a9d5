@@ -1,0 +1,13 @@
+package com.class17;
+
+public class Greetings {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Greetings obj=new Greetings();
+obj.hello();
+	}
+ void hello() {
+	 System.out.println("Hello");
+ }
+}
