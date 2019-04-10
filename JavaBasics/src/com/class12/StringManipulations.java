@@ -22,7 +22,7 @@ public class StringManipulations {
         //toUpperCase()-> convert all character to UpperCase
         //toLowerCase()-> convert all character to LowerCase
         String str3="Hello";
-        
+        str.sub
         String newString=str3.toUpperCase();
         System.out.println(newString);
         

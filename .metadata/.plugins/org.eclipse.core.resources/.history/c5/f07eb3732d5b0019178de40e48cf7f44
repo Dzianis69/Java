@@ -1,0 +1,43 @@
+package com.class20;
+
+/*
+ * Create a method that will take 1 parameter as a String and return reversed String. Method should be visibly only within same package.
+
+Create a method that will take a String and return whether String is palindrome or not. Method should available to all classes within your projects.
+
+Create a method that will take a string and return array of words from that string. Method should be available only within same class.
+ */
+public class Task3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Task3 obj =new Task3();
+		obj.getWords("Whatever hapens it is for reason");
+		obj.getReverse("Goalaziiiio");
+		obj.getPalidrome("lol");
+	}
+String getReverse(String s) {
+	String reverse ="";
+	for(int i=s.length();i>=0;i--) {
+		reverse+=s.substring(i,i+1);
+	}
+	return reverse;
+}
+public boolean getPalidrome(String s) {
+	String palindrome = "";
+	for(int i=s.length();i>=0;i--) {
+		palindrome+=s.charAt(i);
+}
+	if(s.contentEquals(palindrome)) {
+		System.out.print(palindrome+" is  palidrome? ");
+		return true;
+	}else {
+		System.out.print(palindrome+ " is palidrome ? ");
+		return false;
+	}
+	}
+private String[] getWords(String words) {
+	return words.split(" ");
+}
+}

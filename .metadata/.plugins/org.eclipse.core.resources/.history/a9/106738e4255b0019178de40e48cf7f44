@@ -1,0 +1,38 @@
+package com.class20;
+
+import java.util.Scanner;
+
+public class Task2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Scanner in=new Scanner(System.in);
+System.out.println("What is your score?");
+int score=in.nextInt();
+Task2 obj=new Task2();
+System.out.println("Your grade is "+getGrade(score));
+int a=1;
+int b=++a;
+int c=a++;
+	}
+
+	 static char getGrade(int score) {
+		 char gr=0;
+		if (score > 90) {
+			gr= 'A';
+		}
+		if (score >= 80 && score <= 90) {
+			gr=  'B';
+		}
+		if (score >= 70 && score < 80) {
+			gr=  'C';
+		}
+		if (score > 50 && score<70) {
+			gr=  'D';
+		}
+		if (score <= 50) {
+			gr=  'F';
+		}
+		return gr;
+	}
+}
