@@ -1,0 +1,34 @@
+package JavaRush;
+
+/*
+ * Write method compare (int a )so that it: 
+- displays the string " Number less than 5 ", if the method parameter is less than 5 , 
+- displays the string " Number greater than 5 " if the method parameter is greater than 5 , 
+- displays the string " Number equals 5 " if the method parameter equals 5 .
+
+Requirements:
+•	The program should display text on the screen.
+•	The main method should not call System.out.println or System.out.print.
+•	The main method must call the compare method.
+•	The compare method must be void.
+•	The compare method should display text on the screen according to the task.
+ */
+public class Solution {
+	public static void main(String[] args) {
+		Solution obj = new Solution();
+		obj.compare(3);
+		obj.compare(6);
+		obj.compare(5);
+	}
+
+	public static void compare(int a) {
+		// напишите тут ваш код
+		if (a < 5) {
+			System.out.print(" Number less than 5 ");
+		} else if (a > 5) {
+			System.out.print(" Number greater than 5 ");
+		} else {
+			System.out.print(" Number equals 5 ");
+		}
+	}
+}

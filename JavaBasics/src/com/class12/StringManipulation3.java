@@ -49,4 +49,4 @@ public class StringManipulation3 {
 		System.out.println(str3.substring(16, 20));//Java
 		System.out.println(str3.substring(21));
 		}
-		}
+}

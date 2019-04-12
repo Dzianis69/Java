@@ -1,0 +1,23 @@
+package w3resource;
+
+import java.util.Scanner;
+
+/*3.Write a Java method to check whether a string is a valid password.
+Password rules:A password must have at least ten characters.
+A password consists of only letters and digits.
+A password must contain at least two digits
+*/
+public class Method10 {
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		System.out.println("Set password");
+		String password = in.nextLine();
+	Method10 obj = new Method10();
+		obj.checkPassword(password);
+	}
+public   void checkPassword(String password) {
+	if (password.length() < 10) System.out.println("Password to short");
+	if (password.equals(password.replaceAll("[^A-Z a-z 0-9]" , "")))
+		System.out.println("Password shoud contain only letters and didigits");
+}
+}
