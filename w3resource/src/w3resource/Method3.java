@@ -1,5 +1,7 @@
 package w3resource;
 
+import java.util.Scanner;
+
 public class Method3 {
 
 	public static void main(String[] args) {
@@ -14,13 +16,16 @@ Expected Output:
                                                                           
 The middle character in the string: 5
  */
-		getMidleCharacter("Dzianiska");
+		Scanner in = new Scanner(System.in);
+		System.out.println("Type please here");
+		String str = in.nextLine()
+;		getMidleCharacter(str);
 	}
 
 	public static void getMidleCharacter(String str) {
-    int i = str.length()/2;
-    if(str.length()%2 == 1) System.out.println(str.substring(i, i+2));
-    if(str.length()%2 == 0) System.out.println(str.substring(i, i+1));
+    int i = (str.length()-1)/2;
+    if(str.length()%2 == 0) System.out.println(str.substring(i, i+2));
+    if(str.length()%2 == 1) System.out.println(str.substring(i, i+1));
     
 	}
 }
