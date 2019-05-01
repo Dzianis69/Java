@@ -19,6 +19,8 @@ public class HM125 {
 }
 
 class Parent {
+	
+
 	public void met() {
 		System.out.println("Parent m1()");
 	}
