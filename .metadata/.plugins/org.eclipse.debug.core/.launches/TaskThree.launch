@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-<listEntry value="/JavaBasics/src/com/class4/TaskThree.java"/>
+<listEntry value="/SeleniumBasics/src/com/class08/taskThree.java"/>
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="1"/>
 </listAttribute>
 <booleanAttribute key="org.eclipse.jdt.launching.ATTR_EXCLUDE_TEST_CODE" value="true"/>
-<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.class4.TaskThree"/>
-<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="JavaBasics"/>
+<stringAttribute key="org.eclipse.jdt.launching.CLASSPATH_PROVIDER" value="org.eclipse.buildship.core.classpathprovider"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.class08.taskThree"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="SeleniumBasics"/>
 </launchConfiguration>

@@ -15,19 +15,16 @@ public class Task4 {
 
 			}
 		}
-		
-			System.out.println(in);
-		
+
+		System.out.println(in);
 
 		Iterator<Integer> it = in.iterator();
-		while(it.hasNext()) {
-			if(it.next()%5 == 0) {
+		while (it.hasNext()) {
+			if (it.next() % 5 == 0) {
 				it.remove();
 			}
-			
-			
+
 		}
 		System.out.println(in);
 	}
 }
-
