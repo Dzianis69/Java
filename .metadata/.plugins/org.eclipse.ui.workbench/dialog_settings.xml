@@ -4,19 +4,33 @@
 		<item value="509" key="DIALOG_X_ORIGIN"/>
 		<item value="11" key="DIALOG_Y_ORIGIN"/>
 	</section>
+	<section name="EditorSelectionDialog">
+		<item value="true" key="EditorSelectionDialog.STORE_ID_INTERNAL_EXTERNAL"/>
+		<item value=".xml" key="EditorSelectionDialog.STORE_ID_FILE_EXTENSION"/>
+		<item value="Chrome HTML Document" key="EditorSelectionDialog.STORE_ID_DESCR"/>
+	</section>
 	<section name="org.eclipse.ui.internal.QuickAccess">
 		<item value="937" key="dialogHeight"/>
 		<item value="1165" key="dialogWidth"/>
 		<list key="textEntries">
+			<item value="2"/>
+			<item value="1"/>
 			<item value="1"/>
 		</list>
 		<list key="orderedElements">
+			<item value="org.eclipse.ui.console.ConsoleView"/>
+			<item value="org.eclipse.jdt.ui.preferences.ClasspathVariablesPreferencePage"/>
 			<item value="org.eclipse.jdt.ui.PackageExplorer"/>
 		</list>
 		<list key="orderedProviders">
 			<item value="org.eclipse.e4.ui.parts"/>
+			<item value="org.eclipse.ui.preferences"/>
+			<item value="org.eclipse.e4.ui.parts"/>
 		</list>
 		<list key="textArray">
+			<item value="conso"/>
+			<item value="co"/>
+			<item value="classpa"/>
 			<item value="pac"/>
 		</list>
 	</section>
@@ -24,5 +38,7 @@
 		<item value="org.eclipse.jdt.ui.wizards.JavaProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
 		</list>
+	</section>
+	<section name="ImportExportAction">
 	</section>
 </section>

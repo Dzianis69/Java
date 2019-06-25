@@ -1,0 +1,18 @@
+<suite>
+<test name="groupTest">
+	<groups>
+		<run>
+			<include name="Smoke"/>
+
+		</run>
+	</groups>
+	
+		<classes>
+			<class name="com.class03.GroupsExample" />
+
+		</classes>
+
+
+	</test>
+
+</suite>
